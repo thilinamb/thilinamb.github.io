@@ -33,13 +33,13 @@ I am a two times [Google Summer of Code](https://developers.google.com/open-sour
 ### Course Projects
 
 #### <a name="cp-overlay"></a>Using Dijkstra’s Shortest Paths to Route Packets in a Network Overlay
-A distributed overlay network in which the routing plans are calculated using Dijkstra's algorithm. The overlay network is formed according to a Cayley graph. The communication layer is implemented using Java TCP sockets. [[Source](#)]
+A distributed overlay network in which the routing plans are calculated using Dijkstra's algorithm. The overlay network is formed according to a Cayley graph. The communication layer is implemented using Java TCP sockets. [[Source](https://github.com/thilinamb/network-overlay)]
 
 #### <a name="cp-nio"></a>Java NIO based Server backed by a home grown threadpool manager
-Java NIO based server implementation backed by a configurable thread pool implemented from the ground up. The thread pool is capable of handling incoming network connections, processing traffic and sending out data. This implementation is extensible such that a custom message processing logic can be plugged-in. This implementation was tested upto 200 concurrent users with a thread-pool with 5 worker threads.
+Java NIO based server implementation backed by a configurable thread pool implemented from the ground up. The thread pool is capable of handling incoming network connections, processing traffic and sending out data. This implementation is extensible such that a custom message processing logic can be plugged-in. This implementation was tested upto 200 concurrent users with a thread-pool with 5 worker threads. [[Source](https://github.com/thilinamb/java-nio-server)]
 
 #### <a name="cp-mapred"></a>Corpus Analysis Using MapReduce: Zeitgeist and Language Evolution
-A MapReduce program that analyzes a corpus comprised of books published by authoris spanning centuries. As part of the analysis, Flesch Reading Ease and Flesch–Kincaid Grade Level scores along with the Term Frequency-Inverse Document Frequency (TF-IDF) scores are calculated based on the extracted N-grams. This program was implemented targeting Hadoop MapReduce runtime and was tested for a corpus of 1000 books obtained from Project Guttenberg.
+A MapReduce program that analyzes a corpus comprised of books published by authoris spanning centuries. As part of the analysis, Flesch Reading Ease and Flesch–Kincaid Grade Level scores along with the Term Frequency-Inverse Document Frequency (TF-IDF) scores are calculated based on the extracted N-grams. This program was implemented targeting Hadoop MapReduce runtime and was tested for a corpus of 1000 books obtained from Project Guttenberg. [[Source](https://github.com/thilinamb/corpus-analysis-with-hadoop)]
 
 ---
 ### <a name="github"></a> Projects on Github
