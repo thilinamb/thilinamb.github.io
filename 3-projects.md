@@ -4,7 +4,7 @@ title: Projects
 permalink: projects.html
 ---
 
-This page lists a set of chosen projects that I worked on. It includes contributions done to the open source projects as well as some projects I've implemented to satisfy course requirements in grad school.
+This page lists a set of selected projects that I've worked on. It includes contributions done to the open source projects as well as some projects I've implemented to satisfy course requirements in grad school.
 
 * Open Source Contributions  
 	- [Apache Rampart](#os-rampart)  
@@ -30,7 +30,7 @@ While employed at [WSO2](http://wso2.com), I contributed to [WSO2 Identity Serve
 I am a two times [Google Summer of Code](https://developers.google.com/open-source/soc/?csw=1) winner in 2008 and 2009. In Summer 2008, I contributed to Apache Tuscany by implementing Tuscany Service Component Architecture support in Apache Geronimo. I started contributing to Apache Rampart through GSoC 2009 by improving its test coverage.
 
 ---
-### Course Projects
+### Selected Course Projects
 
 #### <a name="cp-overlay"></a>Using Dijkstra’s Shortest Paths to Route Packets in a Network Overlay
 A distributed overlay network in which the routing plans are calculated using Dijkstra's algorithm. The overlay network is formed according to a Cayley graph. The communication layer is implemented using Java TCP sockets. [[Source](https://github.com/thilinamb/network-overlay)]
