@@ -1,0 +1,14 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Thilina Buddhika
+tagline:          'Home'
+description:      'We cannot solve our problems with the same thinking we used when we created them. – Albert Einstein'
+url:              http://www.thilinamb.com
+baseurl:          /
+
