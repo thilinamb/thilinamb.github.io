@@ -102,6 +102,7 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+  text-decoration: underline;
 }
 
 /* Sticky sidebar
