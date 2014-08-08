@@ -47,50 +47,16 @@
     </div>
 
     <nav class="sidebar-nav">
-      <!--<a class="sidebar-nav-item" href="/">Home</a> -->
-
-      
-
-      
-      
-        
-          
-            <a class="sidebar-nav-item" href="/about.html">Home</a>
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/research.html">Research</a>
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item active" href="/projects.html">Projects</a>
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/resume.html">Resume</a>
-          
-        
-      
-        
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/teach.html">Teaching</a>
-          
-        
-      
-        
-          
-        
-      
+            <a class="sidebar-nav-item" href="/about.html">
+            Home</a>
+            <a class="sidebar-nav-item" href="/research.html">
+            Research</a>
+            <a class="sidebar-nav-item active" href="/projects.html">
+            Projects</a>
+            <a class="sidebar-nav-item" href="/teach.html">
+            Teaching</a>
+            <a class="sidebar-nav-item" href="/resume.html">
+            Resume</a>
     </nav>
 
     <p class="copyright-text">&copy; 2014. All rights reserved. <br/>
@@ -104,7 +70,7 @@
 	
   		<h1 class="page-title">Projects</h1>
   	
-  	<p>This page lists a set of chosen projects that I worked on. It includes contributions done to the open source projects as well as some projects I&#39;ve implemented to satisfy course requirements in grad school.</p>
+  	<p>This page lists a set of selected projects that I&#39;ve worked on. It includes contributions done to the open source projects as well as some projects I&#39;ve implemented to satisfy course requirements in grad school.</p>
 
 <ul>
 <li>Open Source Contributions<br>
@@ -142,19 +108,19 @@
 
 <hr>
 
-<h3>Course Projects</h3>
+<h3>Selected Course Projects</h3>
 
 <h4><a name="cp-overlay"></a>Using Dijkstra’s Shortest Paths to Route Packets in a Network Overlay</h4>
 
-<p>A distributed overlay network in which the routing plans are calculated using Dijkstra&#39;s algorithm. The overlay network is formed according to a Cayley graph. The communication layer is implemented using Java TCP sockets. [<a href="#">Source</a>]</p>
+<p>A distributed overlay network in which the routing plans are calculated using Dijkstra&#39;s algorithm. The overlay network is formed according to a Cayley graph. The communication layer is implemented using Java TCP sockets. [<a href="https://github.com/thilinamb/network-overlay">Source</a>]</p>
 
 <h4><a name="cp-nio"></a>Java NIO based Server backed by a home grown threadpool manager</h4>
 
-<p>Java NIO based server implementation backed by a configurable thread pool implemented from the ground up. The thread pool is capable of handling incoming network connections, processing traffic and sending out data. This implementation is extensible such that a custom message processing logic can be plugged-in. This implementation was tested upto 200 concurrent users with a thread-pool with 5 worker threads.</p>
+<p>Java NIO based server implementation backed by a configurable thread pool implemented from the ground up. The thread pool is capable of handling incoming network connections, processing traffic and sending out data. This implementation is extensible such that a custom message processing logic can be plugged-in. This implementation was tested upto 200 concurrent users with a thread-pool with 5 worker threads. [<a href="https://github.com/thilinamb/java-nio-server">Source</a>]</p>
 
 <h4><a name="cp-mapred"></a>Corpus Analysis Using MapReduce: Zeitgeist and Language Evolution</h4>
 
-<p>A MapReduce program that analyzes a corpus comprised of books published by authoris spanning centuries. As part of the analysis, Flesch Reading Ease and Flesch–Kincaid Grade Level scores along with the Term Frequency-Inverse Document Frequency (TF-IDF) scores are calculated based on the extracted N-grams. This program was implemented targeting Hadoop MapReduce runtime and was tested for a corpus of 1000 books obtained from Project Guttenberg.</p>
+<p>A MapReduce program that analyzes a corpus comprised of books published by authoris spanning centuries. As part of the analysis, Flesch Reading Ease and Flesch–Kincaid Grade Level scores along with the Term Frequency-Inverse Document Frequency (TF-IDF) scores are calculated based on the extracted N-grams. This program was implemented targeting Hadoop MapReduce runtime and was tested for a corpus of 1000 books obtained from Project Guttenberg. [<a href="https://github.com/thilinamb/corpus-analysis-with-hadoop">Source</a>]</p>
 
 <hr>
 

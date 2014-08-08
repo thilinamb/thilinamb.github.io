@@ -93,7 +93,7 @@ html {
 }
 .sidebar-nav-item {
   display: block;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 a.sidebar-nav-item:hover,
@@ -101,7 +101,9 @@ a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
 .sidebar-nav-item.active {
+  font-size: 19px;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 /* Sticky sidebar
