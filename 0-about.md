@@ -15,12 +15,3 @@ I earned my bachelors degree from [Department of Computer Science and Engineerin
 
 I was born and raised in the beautiful island of [Sri Lanka](https://www.youtube.com/watch?v=BsDG-FdW0is). I am a big fan of [Cricket](http://www.srilankacricket.lk/) and a passive listener of music.
 
-----
-
-### Reach me virtually:
-[Email](mailto:thilinab@cs.colostate.edu) | [Blog](http://blog.thilinamb.com) | [LinkedIn](www.linkedin.com/in/thilinamb/) | [Github](http://github.com/thilinamb) | [Twitter](http://twitter.com/thilinamb)
-
-### Physical Address:
-Com. Sci. Building, Rm 235,  
-Colorado State University,  
-Fort Collins,  CO 80523-1873
