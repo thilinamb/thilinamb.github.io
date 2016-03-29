@@ -256,7 +256,7 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-.social-icon {
+.social a {
     color: #333;
     font-size: 1.2rem;
     font-weight: 500;
