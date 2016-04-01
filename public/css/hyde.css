@@ -265,9 +265,9 @@ a.sidebar-nav-item:focus {
 }
 
 .social {
-    align-items: center;
+    text-align: center;
     display: flex;
     margin: 0 auto;
-    max-width: 24rem;
+    width: 15rem;
 }
 
