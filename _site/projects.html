@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="/public/css/syntax.css">
   <link rel="stylesheet" href="/public/css/hyde.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
@@ -36,7 +38,7 @@
   <div class="container sidebar-sticky" style="text-align:center">
     <div class="sidebar-about">
       <p>
-        <img src="/assets/images/me-circular.png" height="150" width="150" style="margin: 0 auto"/>
+        <img src="/assets/images/me.png" width="150" style="margin: 0 auto"/>
       </p>
       <h1>
         <a href="/">
@@ -58,10 +60,26 @@
             <a class="sidebar-nav-item" href="/resume.html">
             Resume</a>
     </nav>
-
-    <p class="copyright-text">&copy; 2015. All rights reserved. <br/>
-     Modified from <a href="http://hyde.getpoole.com">Hyde</a> and Powered by <a href="http://jekyllrb.com/">Jekyll</a> and <a href="https://pages.github.com/">Github Pages.</a></p>
+    <div class="social">
+      <a href="mailto:thilinamb@gmail.com">
+        <img src="/assets/images/email-32.png" alt="EMail"/>
+      </a>
+      <a href="https://github.com/thilinamb">
+        <img src="/assets/images/github-32.png" alt="Github"/>
+      </a>
+      <a href="https://www.linkedin.com/in/thilinamb">
+        <img src="/assets/images/linkedin-32.png" alt="LinkedIn" />
+      </a>
+       <a href="http://blog.thilinamb.com">
+        <img src="/assets/images/blogger-32.png" alt="Blog"/>
+      </a>
+      <a href="https://twitter.com/thilinamb">
+        <img src="/assets/images/twitter-32.png" alt="Twitter"/>
+      </a>
   </div>
+    <p class="copyright-text">&copy; 2016. All rights reserved. <br/>
+       Created with <a href="http://hyde.getpoole.com" target="_blank">Hyde</a>, <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>, <a href="http://www.iconsdb.com/" target="_blank">Icons DB</a> and <a href="https://pages.github.com/" target="_blank">Github Pages.</a></p>
+    </div>
 </div>
 
 
@@ -70,63 +88,54 @@
 	
   		<h1 class="page-title">Projects</h1>
   	
-  	<p>This page lists a set of selected projects that I&#39;ve worked on. It includes contributions done to the open source projects as well as some projects I&#39;ve implemented to satisfy course requirements in grad school.</p>
+  	<p>This page lists a set of selected projects that I’ve worked on. It includes contributions done to the open source projects as well as some projects I’ve implemented to satisfy course requirements in grad school.</p>
 
 <ul>
-<li>Open Source Contributions<br>
-
-<ul>
-<li><a href="#os-rampart">Apache Rampart</a><br></li>
-<li><a href="#os-wso2is">WSO2 Identity Server</a><br></li>
-<li><a href="#os-gsoc">Google Summer of Code</a></li>
-</ul></li>
-<li>Course Projects
-
-<ul>
-<li><a href="#cp-overlay">Using Dijkstra’s Shortest Paths to Route Packets in a Network Overlay</a></li>
-<li><a href="#cp-nio">Corpus Analysis Using MapReduce: Zeitgeist and Language Evolution</a></li>
-<li><a href="#cp-mapred">Using Thread Pools to Manage Active Network Connections</a></li>
-</ul></li>
-<li><a href="#github">Github</a></li>
+  <li>Open Source Contributions  
+    <ul>
+      <li><a href="#os-rampart">Apache Rampart</a>  </li>
+      <li><a href="#os-wso2is">WSO2 Identity Server</a>  </li>
+      <li><a href="#os-gsoc">Google Summer of Code</a></li>
+    </ul>
+  </li>
+  <li>Course Projects
+    <ul>
+      <li><a href="#cp-overlay">Using Dijkstra’s Shortest Paths to Route Packets in a Network Overlay</a></li>
+      <li><a href="#cp-nio">Corpus Analysis Using MapReduce: Zeitgeist and Language Evolution</a></li>
+      <li><a href="#cp-mapred">Using Thread Pools to Manage Active Network Connections</a></li>
+    </ul>
+  </li>
+  <li><a href="#github">Github</a></li>
 </ul>
 
-<hr>
+<hr />
 
-<h3>Open Source Contributions</h3>
+<h3 id="open-source-contributions">Open Source Contributions</h3>
 
-<h4><a name="os-rampart"></a>Apache Rampart</h4>
-
+<h4 id="a-nameos-rampartaapache-rampart"><a name="os-rampart"></a>Apache Rampart</h4>
 <p>I am a committer and a project management committee member for <a href="http://axis.apache.org/axis2/java/core/">Apache Axis2</a>, a leading open source web services engine. I contributed mainly to its security module, <a href="http://axis.apache.org/axis2/java/rampart/">Rampart</a> where I authored the <a href="http://docs.oasis-open.org/security/saml/v2.0/saml-core-2.0-os.pdf">SAML 2.0</a> support for <a href="http://docs.oasis-open.org/ws-sx/ws-trust/200512/ws-trust-1.3-os.html">WS-Trust</a> module of Rampart in addition to various bug fixes and improvements.</p>
 
-<h4><a name="os-wso2is"></a>WSO2 Identity Server</h4>
-
+<h4 id="a-nameos-wso2isawso2-identity-server"><a name="os-wso2is"></a>WSO2 Identity Server</h4>
 <p>While employed at <a href="http://wso2.com">WSO2</a>, I contributed to <a href="http://wso2.com/products/identity-server/">WSO2 Identity Server</a> which is an open source identity and entitlement management server. Some of my major contributions are SAML 2.0 based single sign on implementation, OAuth 2.0 identity provider support, Security Token Service improvements and implementing XMPP based multi-factor authentication.</p>
 
-<h4><a name="os-gsoc"></a>Google Summer of Code</h4>
-
+<h4 id="a-nameos-gsocagoogle-summer-of-code"><a name="os-gsoc"></a>Google Summer of Code</h4>
 <p>I am a two times <a href="https://developers.google.com/open-source/soc/?csw=1">Google Summer of Code</a> winner in 2008 and 2009. In Summer 2008, I contributed to Apache Tuscany by implementing Tuscany Service Component Architecture support in Apache Geronimo. I started contributing to Apache Rampart through GSoC 2009 by improving its test coverage.</p>
 
-<hr>
+<hr />
+<p>### Selected Course Projects</p>
 
-<h3>Selected Course Projects</h3>
+<h4 id="a-namecp-overlayausing-dijkstras-shortest-paths-to-route-packets-in-a-network-overlay"><a name="cp-overlay"></a>Using Dijkstra’s Shortest Paths to Route Packets in a Network Overlay</h4>
+<p>A distributed overlay network in which the routing plans are calculated using Dijkstra’s algorithm. The overlay network is formed according to a Cayley graph. The communication layer is implemented using Java TCP sockets. [<a href="https://github.com/thilinamb/network-overlay">Source</a>]</p>
 
-<h4><a name="cp-overlay"></a>Using Dijkstra’s Shortest Paths to Route Packets in a Network Overlay</h4>
-
-<p>A distributed overlay network in which the routing plans are calculated using Dijkstra&#39;s algorithm. The overlay network is formed according to a Cayley graph. The communication layer is implemented using Java TCP sockets. [<a href="https://github.com/thilinamb/network-overlay">Source</a>]</p>
-
-<h4><a name="cp-nio"></a>Java NIO based Server backed by a home grown threadpool manager</h4>
-
+<h4 id="a-namecp-nioajava-nio-based-server-backed-by-a-home-grown-threadpool-manager"><a name="cp-nio"></a>Java NIO based Server backed by a home grown threadpool manager</h4>
 <p>Java NIO based server implementation backed by a configurable thread pool implemented from the ground up. The thread pool is capable of handling incoming network connections, processing traffic and sending out data. This implementation is extensible such that a custom message processing logic can be plugged-in. This implementation was tested upto 200 concurrent users with a thread-pool with 5 worker threads. [<a href="https://github.com/thilinamb/java-nio-server">Source</a>]</p>
 
-<h4><a name="cp-mapred"></a>Corpus Analysis Using MapReduce: Zeitgeist and Language Evolution</h4>
-
+<h4 id="a-namecp-mapredacorpus-analysis-using-mapreduce-zeitgeist-and-language-evolution"><a name="cp-mapred"></a>Corpus Analysis Using MapReduce: Zeitgeist and Language Evolution</h4>
 <p>A MapReduce program that analyzes a corpus comprised of books published by authoris spanning centuries. As part of the analysis, Flesch Reading Ease and Flesch–Kincaid Grade Level scores along with the Term Frequency-Inverse Document Frequency (TF-IDF) scores are calculated based on the extracted N-grams. This program was implemented targeting Hadoop MapReduce runtime and was tested for a corpus of 1000 books obtained from Project Guttenberg. [<a href="https://github.com/thilinamb/corpus-analysis-with-hadoop">Source</a>]</p>
 
-<hr>
-
-<h3><a name="github"></a> Projects on Github</h3>
-
-<p>Some of the projects I have worked on can be found on my <a href="http://github.com/thilinamb">Github</a> page. </p>
+<hr />
+<p>### <a name="github"></a> Projects on Github
+Some of the projects I have worked on can be found on my <a href="http://github.com/thilinamb">Github</a> page. </p>
 
 </div>
 

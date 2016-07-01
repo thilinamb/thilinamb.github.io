@@ -33,7 +33,7 @@
 
 html {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
+ }
 @media (min-width: 48em) {
   html {
     font-size: 16px;
@@ -83,7 +83,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: font-family: 'Alegreya', serif;
   font-size: 1.25rem;
 }
 
@@ -116,7 +116,7 @@ a.sidebar-nav-item:focus {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
-    bottom: 1rem;
+    top: 10rem;
     left:   1rem;
   }
 }
@@ -254,5 +254,20 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+.social a {
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    width: 3rem;
+}
+
+.social {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    width: 15rem;
 }
 
