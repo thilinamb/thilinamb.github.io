@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!--<link rel="icon" href="http://getbootstrap.com/favicon.ico">-->
+
+    <title>Thilina Buddhika</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">    
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./css/jumbotron-narrow.css" rel="stylesheet">
+
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            if (location.hash) {
+                $("a[href='" + location.hash + "']").tab("show");
+             }
+            $(document.body).on("click", "a[data-toggle]", function(event) {
+                location.hash = this.getAttribute("href");
+            });
+        });
+        $(window).on("popstate", function() {
+            var anchor = location.hash || $("a[data-toggle='tab']").first().attr("href");
+            $("a[href='" + anchor + "']").tab("show");
+        });
+    </script>
+
+    <style type="text/css">
+        h1{
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            font-weight:bold;
+        }
+        body {
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            padding : 15px ;
+        }
+        .tab-pane{
+            margin-top: 20px
+        }
+        .bottom-three {
+            margin-top: 0.2cm;
+        }
+        .jumbotron p{
+             font-size: 14px;
+             padding: 0px;
+        }
+        .jumbotron {
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"><h1>Thilina Buddhika</h1></div>
+    <div class="container">
+        <ul class="nav nav-tabs" id="navigation_tabs">
+            <li class="active">
+                <a href="#about" data-toggle="tab">About</a>
+            </li>
+            <li>
+                <a href="#research" data-toggle="tab">Research</a>
+            </li>
+            <li>
+                <a href="#resume" data-toggle="tab">Resume</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="about">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./img/me.jpg" alt="profile-pic" class="img-responsive"/>  
+                        <p class="bottom-three"></p>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Desk #1, Room 435, Computer Science Building</div>
+                            <div class="panel-body">
+                            <p><img src="./img/email.png" width="25px", height="25px">thilinab@cs.colostate.edu</p>
+                            <p><img src="./img/github13.png" width="25px", height="25px">Github</p>
+                            <p><img src="./img/twitter21.png" width="25px", height="25px">Twitter</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="text-justify">I am Thilina Buddhika, a Ph.D student at <a href="http://www.cs.colostate.edu" target="_blank">Department of Computer Science</a> at <a href="http://www.colostate.edu" target="_blank">Colorado State University</a> since Fall, 2013. My primary research interests are distributed systems and large scale data processing in general. I am a member of Distributed Systems Group under the supervision of <a href="http://www.cs.colostate.edu/~shrideep/" target="_blank">Dr. Shrideep Pallickara. </a></p>
+                
+                        <p class="text-justify">Before starting my graduate studies, I worked as a software engineer at <a href="http://wso2.com" target="_blank">WSO2 Inc.</a>, an open source SOA middleware company, for more than three years. I have experience working with web services, service oriented architectures, enterprise application integration and SOA security. I am a committer and a project management committee member for <a href="http://axis.apache.org" target="_blank">Apache Axis2</a>, a popular open source SOAP engine. </p>
+
+                        <p class="text-justify">I earned my bachelors degree in Computer Science and Engineering from <a href="http://www.cse.mrt.ac.lk" target="_blank">University of Moratuwa</a>, Sri Lanka in 2009. I received my M.S. degree in Computer Science from the <a href="http://www.cs.colostate.edu" target="_blank">Department of Computer Science</a> at Colorado State University in 2015. </p>
+
+                        <p class="text-justify">I was born and raised in the beautiful island of <a href="https://www.youtube.com/watch?v=BsDG-FdW0is" target="_blank">Sri Lanka</a>. I am a big fan of Cricket and listen to almost all genres of music. I am an amateur photographer. You can find some of my recent snaps on my <a href="https://instagram.com/thilinamb" target="_blank">Instagram</a> page.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="research">
+                <div class="row">
+                    <div class="col-md-12">
+                    <p class="text-justify">My research is focused on large scale data processing in general. I have been working on achieving high performance and scalability in stream processing systems, data sketches for streaming data, efficient processing and storage of sensor data in IoT settings and leveraging Fog computing for large scale data analytics.</p>
+                    <p class="bottom-three"></p>
+                    <p class="bottom-three"></p>
+                        <!-- conference papers -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Journal Papers</h3>
+                            </div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li><p class="text-justify"><strong>Thilina Buddhika</strong>, Ryan Stern, Kira Lindburg, Kathleen Ericson, and Shrideep Pallickara. Online Scheduling and Interference Alleviation for Low-latency, High-throughput Processing of Data Streams. (To appear) IEEE Transactions on Parallel and Distributed Systems <em>(IEEE TPDS)</em>. 2017. <a href="http://granules.cs.colostate.edu/papers/OnlineDataStreamScheduling-TPDS.pdf" target="_blank"><span class="label label-primary">PDF</span></a></p><p class="bottom-three"></p></li>
+                                    <li><p class="text-justify"><strong>Thilina Buddhika</strong>, Matthew Malensek, Sangmi Lee Pallickara, and Shrideep Pallickara. Synopsis: A Distributed Sketch over Voluminous Spatiotemporal Observational Streams. (To appear) IEEE Transactions on Knowledge and Data Engineering <em>(IEEE TKDE)</em>. 2017. <a href="http://www.cs.colostate.edu/~shrideep/papers/synopsis-tkde.pdf" target="_blank"><span class="label label-primary">PDF</span></a></p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- conference papers -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Conference Papers</h3>
+                            </div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li><p class="text-justify"><strong>Thilina Buddhika</strong> and Shrideep Pallickara. Neptune: Real Time Stream Processing for Internet of Things and Sensing Environments. Proceedings of the 30th IEEE International Parallel & Distributed Processing Symposium <em>(IEEE IPDPS)</em>. pp 1143-1152. Chicago, USA. 2016. <a href="http://granules.cs.colostate.edu/papers/Neptune-IPDPS-2016.pdf" target="_blank"><span class="label label-primary">PDF</span></a></p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- conference papers -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Other Publications</h3>
+                            </div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li><p class="text-justify"><strong>Thilina Buddhika</strong>, Indrakshi Ray, Mark Linderman, and Anura Jayasumana Secure complex event processing in a heterogeneous and dynamic network. SPIE Defense+ Security (2014): 907907-907907. <em>(Invited Workshop Paper)</em> <a href="http://dx.doi.org/10.1117/12.2053934" target="_blank"><span class="label label-primary">Link</span></a></p><p class="bottom-three"></p></li>
+                                    <li><p class="text-justify">Indrakshi Ray and <strong>Thilina Buddhika</strong>, Secure Transaction Processing, Encyclopedia of Database Systems, Ling Liu and Tamer Ozsu editors, Springer, 2017 <em>(Invited Book Chaper)</em></p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="resume">
+                <p><em>Last Updated: January, 2015</em></p>
+                <p class="bottom-three"></p>
+                <object data="./files/Resume_Thilina_Buddhika_2015.pdf" type="application/pdf" width="100%" height="650px">
+                    <p class="lead">Unable to load the PDF viewer plugin. Download the resume from this <a href="./files/Resume_Thilina_Buddhika_2015.pdf" target="_blank">link</a>.</p>
+                </object>
+            </div>
+        </div>
+        <footer class="footer">
+        <div>
+            <p class="muted-text small text-center">© Thilina Buddhika. 2017; Created with <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>. Icons by <a href="http://www.flaticon.com" target="_blank">FlatIcons</a>. Hosted on <a href="https://pages.github.com/" target="_blank">Github Pages</a>.</p>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
