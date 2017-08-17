@@ -1,1 +1,1 @@
-## Personal web site built with [Hyde](http://hyde.getpoole.com/) and [Jekyll](http://jekyllrb.com/).
+## Personal web site built with Bootstrap, FlatIcons, and Google Fonts.
